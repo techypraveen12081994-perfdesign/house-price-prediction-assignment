@@ -1,0 +1,33 @@
+{
+    "optimal_ridge_alpha": 572.236765935022,
+    "optimal_lasso_alpha": 0.010476157527896652,
+    "ridge_performance": {
+        "rmse": 0.15378520460531156,
+        "r2": 0.8732680816612581,
+        "mae": 0.09997512133689278
+    },
+    "lasso_performance": {
+        "rmse": 0.15109278103025114,
+        "r2": 0.8776668019884302,
+        "mae": 0.10236593444968575
+    },
+    "top_5_features": [
+        "GrLivArea",
+        "OverallQual",
+        "GarageCars",
+        "YearBuilt",
+        "OverallCond"
+    ],
+    "new_top_5_features_after_exclusion": [
+        "1stFlrSF",
+        "2ndFlrSF",
+        "GarageArea",
+        "YearRemodAdd",
+        "TotRmsAbvGrd"
+    ],
+    "features_selected_by_lasso": 53,
+    "double_alpha_impact": {
+        "ridge_rmse_change": 0.004693711885966206,
+        "lasso_rmse_change": 0.011668887746391993
+    }
+}
